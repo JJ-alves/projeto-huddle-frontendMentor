@@ -1,0 +1,42 @@
+@media (max-Width: 929px) {
+    header {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+    }
+
+    main .main {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+        margin: 0;
+    }
+
+    main img {
+        width: 90%;
+    }
+
+    main .main-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer p {
+        margin-bottom: 20px;
+        font-size: 11px;
+    }
+}
